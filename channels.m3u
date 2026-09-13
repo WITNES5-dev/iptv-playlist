@@ -35,9 +35,9 @@ http://190.11.225.124:5000/live/nbc_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="NBC.us@West" group-title="Network Feeds",NBC West (720p)
 http://stream.cammonitorplus.net/1800/index.m3u8
 
-# Las Vegas
-#EXTINF:-1 group-title="Las Vegas",FOX 5 Las Vegas - KVVU
-http://89.187.178.197:1970/FOXLasVegas/index.m3u8
+# San Francisco
+#EXTINF:-1 tvg-id="CW.us@KTVU" group-title="San Francisco",FOX 2 San Francisco - KTVU (720p)
+https://aegis-cloudfront-1.tubi.video/8d9284ec-c451-4e51-a1d4-d16e5c8972af/index.m3u8
 
 # Los Angeles
 #EXTINF:-1 tvg-id="Fox.us@KTTV" group-title="Los Angeles",FOX 11 Los Angeles - KTTV (1080p)
