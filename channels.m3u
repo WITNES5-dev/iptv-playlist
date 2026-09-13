@@ -1,44 +1,44 @@
 #EXTM3U
 
-# National Sports / Entertainment
-#EXTINF:-1 tvg-id="USANetwork.us@East" group-title="National",USA Network
+# QUALITY-FIRST VERSION
+# Only one preferred feed per channel unless a backup is meaningfully different.
+
+# Sports / Entertainment
+#EXTINF:-1 tvg-id="USANetwork.us@East" group-title="National",USA Network (1080p)
 http://190.11.225.124:5000/live/usa_hd/playlist.m3u8
-#EXTINF:-1 tvg-id="USANetwork.us@East" group-title="National",USA Network (Backup)
-https://tvsen3.aynaott.com/dbbcY6NG/index.m3u8
 
-#EXTINF:-1 tvg-id="FoxSports1.us@HD" group-title="Sports",FS1
+#EXTINF:-1 tvg-id="FoxSports1.us@HD" group-title="Sports",FS1 (720p)
 http://190.11.225.124:5000/live/fs1_hd/playlist.m3u8
-#EXTINF:-1 tvg-id="FoxSports1.us@HD" group-title="Sports",FS1 (Backup)
-http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
 
-#EXTINF:-1 tvg-id="FoxSports2.us@HD" group-title="Sports",FS2
+#EXTINF:-1 tvg-id="FoxSports2.us@HD" group-title="Sports",FS2 (720p)
 https://tvsen7.aynascope.net/foxsports2/index.m3u8
 
-# Network feeds useful for NFL coverage
-#EXTINF:-1 tvg-id="ABC.us@East" group-title="Network Feeds",ABC East
+# National network feeds
+#EXTINF:-1 tvg-id="ABC.us@East" group-title="Network Feeds",ABC East (1080p)
 http://190.11.225.124:5000/live/abc_hd/playlist.m3u8
-#EXTINF:-1 tvg-id="ABC.us@West" group-title="Network Feeds",ABC West
+
+#EXTINF:-1 tvg-id="ABC.us@West" group-title="Network Feeds",ABC West (720p)
 http://stream.cammonitorplus.net/1797/index.m3u8
 
-#EXTINF:-1 tvg-id="CBS.us@East" group-title="Network Feeds",CBS East
-http://190.11.225.124:5000/live/cbs_hd/playlist.m3u8
-#EXTINF:-1 tvg-id="CBS.us@East" group-title="Network Feeds",CBS East (Backup)
+#EXTINF:-1 tvg-id="CBS.us@East" group-title="Network Feeds",CBS East (1080p)
 http://stream.cammonitorplus.net/1783/index.m3u8
 
-#EXTINF:-1 tvg-id="Fox.us@East" group-title="Network Feeds",FOX East
+#EXTINF:-1 tvg-id="Fox.us@East" group-title="Network Feeds",FOX East (720p)
 http://stream.cammonitorplus.net/1752/index.m3u8
-#EXTINF:-1 tvg-id="Fox.us@West" group-title="Network Feeds",FOX West
+
+#EXTINF:-1 tvg-id="Fox.us@West" group-title="Network Feeds",FOX West (720p)
 http://stream.cammonitorplus.net/1799/index.m3u8
 
-#EXTINF:-1 tvg-id="NBC.us@East" group-title="Network Feeds",NBC East
+#EXTINF:-1 tvg-id="NBC.us@East" group-title="Network Feeds",NBC East (1080p)
 http://190.11.225.124:5000/live/nbc_hd/playlist.m3u8
-#EXTINF:-1 tvg-id="NBC.us@West" group-title="Network Feeds",NBC West
+
+#EXTINF:-1 tvg-id="NBC.us@West" group-title="Network Feeds",NBC West (720p)
 http://stream.cammonitorplus.net/1800/index.m3u8
 
-# Los Angeles locals currently carrying a stream in iptv-org
-#EXTINF:-1 tvg-id="Fox.us@KTTV" group-title="Los Angeles",FOX 11 Los Angeles (KTTV)
+# Los Angeles
+#EXTINF:-1 tvg-id="Fox.us@KTTV" group-title="Los Angeles",FOX 11 Los Angeles - KTTV (1080p)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox11losangeleskttv-vizious/playlist.m3u8
 
-# Tampa Bay locals currently carrying a stream in iptv-org
-#EXTINF:-1 tvg-id="Fox.us@WTVT" group-title="Tampa Bay",FOX 13 Tampa Bay (WTVT)
+# Tampa Bay
+#EXTINF:-1 tvg-id="Fox.us@WTVT" group-title="Tampa Bay",FOX 13 Tampa Bay - WTVT (1080p)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox13tampabaywtvt-vizious/playlist.m3u8
